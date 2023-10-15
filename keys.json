@@ -1,0 +1,106 @@
+{
+  "a": {
+    "replacement": "₳ÁÀáàÂÄĂâäăĀÃÅåãāĄąªɐ∀ΆἈἉἁἀάᾹᾼᾺὰᾳᾱἍΆᾸᾰάἅᾉἏἋᾅᾃᾇἎἊἌἄἂἆᾊᾌᾈᾀᾄᾂᾎ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "b": {
+    "replacement": "₿ʙβϐbB",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "c": {
+    "replacement": "©℃ɔĆĊċćcČÇĈĉçčʗⅭⅽↄↅↃ⊏⊑⫇⫅⪿⫁⫋⫉ς",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "d": {
+    "replacement": "₫ĎDdďɗĐÐðđɖⅮⅾ⫐⫒",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "e": {
+    "replacement": "₠EÉÈèéeĖÊËëêėĚĔĒēĕěĘęɞɛə∃∈∉∊∑⋵⋲⋳⋶⋴⋿⫕ΈῈΈέὲέἝἛἜἔἓἕἚἒ⁅⁆∄",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "f": {
+    "replacement": "℉Ff⨍⨎⨏⨐⨑",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "g": {
+    "replacement": "₲ɠĠGgġĢĞğĜĝģɡɢʛ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "h": {
+    "replacement": "HĤĥhĦɦħɧɥʮʯʜἩἨἡἠῌῊΉήὴῃἫἭΉήἥἣᾝᾙἯἧᾑᾕἬᾟᾛᾓᾗἤᾘἮἪἢἦᾐᾞᾚᾜᾔᾒᾖ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "i": {
+    "replacement": "¡IÍİíiÌÎîiìÏĬĪīĭïĨĮıɨįĩĩįɨɪɫɩⅠ⫯ἹἸΊίἰἱῚῙῘῐῑὶΪΊἽἵίϊἻἿἼἴἷἳἶἲἺἾ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "j": {
+    "replacement": "jĴĵJʝϳͿ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "k": {
+    "replacement": "KĸĶķʞkΚκϏ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "l": {
+    "replacement": "LĹĿŀĺlĽĻŁłļľɬɭʟι",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "m": {
+    "replacement": "₥₼MɱɯŉɰmϻϺ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "n": {
+    "replacement": "ŇŃNnńňŊŅÑñņŋɲɳɴΝͶͷϰϗ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "o": {
+    "replacement": "°º¤OÓɵóoÒÔÖöôòŎŌÕõōŏŐØøőʘ∅⊕⊖⊚⊙⊘⨀ΘΟοσὉὁῸΌὈὀὸόὋὍΌόὅὃὊὌὄὂϘϙϕ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "p": {
+    "replacement": "℗⁋₽₱PpÞϷϼ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "q": {
+    "replacement": "qQ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "r": {
+    "replacement": "֏RŔɹŕrŘŖɺɻŗřɼɾʀɽɿʁ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "s": {
+    "replacement": "§$₴₷SŚŜŝśsŠŞʂşš",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "t": {
+    "replacement": "₮₸TŤťʇtŢţŦŧʈ⊤⊺⫟⫧⫪⫱ΤτͲͳ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "u": {
+    "replacement": "µUuÚÙÛûùúÜŬŪūŭüŨŮŲųůũŰʉʋʊű∐⊔⋃⨃⨄⩁⩂⩅μυὑύὺῠῡϋὓὕύὗ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "v": {
+    "replacement": "^ʌⅤ⊽⋁⋀⨈⨇⩓⩕⩖⩔⩗⩛⩡⩢⩣ⅴ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "w": {
+    "replacement": "₩WŴŵwʬωὡὠὼῳώὣὥώὧᾡᾥὤᾧᾣὢὦᾠᾦᾢᾤ⩊",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "x": {
+    "replacement": "×Ⅹⅹ⨴⨵⨱⨲⨰⨯⪥",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "y": {
+    "replacement": "¥YyʏŸŶÝýŷʎÿγλὙΎῪῨῩΫὛὝΎὟϒϔϓ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  },
+  "z": {
+    "replacement": "ZŹʐźzŻŽʑžżΖ",
+    "description": "Contains letters to replace this section's letter with randomly."
+  }
+}

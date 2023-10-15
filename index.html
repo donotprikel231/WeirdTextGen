@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weird Text Generator</title>
+  <link rel="shortcut icon" href="favicon.png">
+  <style>
+    body {
+      font-family: 'Cinzel Decorative', cursive;
+      background-image: url(Background.png);
+      background-size: 20%;
+      background-repeat: repeat;
+      background-position: center;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background-color: #262626;
+      border-radius: 10px;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+      width: 50%; /* Adjust the maximum width to fill the available space */
+    }
+    h1 {
+      color: #ff9900;
+      font-size: 24px; /* Adjust the font size as needed */
+    }
+    input[type="text"] {
+      width: 400px;
+      padding: 10px;
+      margin: 10px 0;
+      border: 2px solid #262626;
+      border-radius: 5px;
+      background-color: #333;
+      color: #ff9900;
+    }
+    button {
+      background-color: #ff9900;
+      color: #333;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #cc6600;
+    }
+    textarea {
+      width: 95%;
+      height: 300px;
+      padding: 10px;
+      margin-top: 10px;
+      border: 2px solid #262626;
+      border-radius: 5px;
+      background-color: #333;
+      color: #ff9900;
+      resize: none; /* Make the textarea non-adjustable */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Weird Text Generator</h1>
+    <input type="text" id="inputText" placeholder="Enter text in English">
+    <button onclick="generateText()">Generate</button>
+    <textarea id="outputText" readonly placeholder="Generated text will appear here"></textarea>
+  </div>
+
+  <script>
+    function generateText() {
+      const inputText = document.getElementById("inputText").value;
+      const textFile = "keys.json"; // Adjust the filename as needed
+
+      // Load the JSON file with sections for all letters
+      fetch(textFile)
+        .then(response => response.json())
+        .then(data => {
+          let output = "";
+
+          for (let i = 0; i < inputText.length; i++) {
+            const letter = inputText[i].toLowerCase();
+            if (/[a-z]/.test(letter)) {
+              const section = data[letter];
+              if (section) {
+                const replacement = section.replacement;
+                if (replacement) {
+                  const randomIndex = Math.floor(Math.random() * replacement.length);
+                  output += replacement[randomIndex];
+                } else {
+                  output += letter;
+                }
+              } else {
+                output += letter;
+              }
+            } else {
+              output += letter;
+            }
+          }
+
+          document.getElementById("outputText").value = output;
+        })
+        .catch(error => {
+          console.error("Error loading JSON file: " + error);
+        });
+    }
+  </script>
+</body>
+</html>
